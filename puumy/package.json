@@ -1,0 +1,20 @@
+{
+  "name": "music-bot",
+  "main": "app.js",
+  "author": "Kunkey",
+  "version": "7.3.0",
+  "repository": "https://github.com/kunkey/Music-Bot-Discord.git",
+  "description": "Just music bot. Using a module (discord-js) and (discord-player).",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.3.3",
+    "discord-player": "^3.2.0",
+    "discord.js": "^12.5.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "ffmpeg-static": "^4.2.7",
+    "pm2": "^4.5.5"
+  }
+}
